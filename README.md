@@ -1,16 +1,47 @@
-# hacknroll2021
+# parkWhere?
 
-A new Flutter application.
+parkWhere? is a mobile applicaton that allows drivers to check the current (and projected) availability of public car park lots. 
+
+The application is built using Flutter and Dart. It uses a TFLite model to determine the projected availability and the Google Maps API for mapping related requests.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  * The latest version of Flutter and Dart installed on your local machine.
+  * A valid Google Maps API key.
+  * A valid LTA Datamall API key.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Step 1:**
+
+Download or clone this repo.
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+
+**Step 3:**
+
+Go to project root and create a new file `.env`. In that file, add the following lines
+
+```
+MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
+ACCOUNT_KEY=YOUR_LTA_API_KEY
+```
+
+**Step 4:**
+
+Run the project.
+
+## Authors
+  
+* **Balasubramaniam Praveen** -  [pr4aveen](https://github.com/pr4aveen)
+* **Bryan Wong Hong Liang** - [bryanwhl](https://github.com/bryanwhl)
+* **Farrell Nah Jun Hao** - [boundtotheearth](https://github.com/boundtotheearth)
+* **Foong Xin Yu** - [Uxinnn](https://github.com/Uxinnn)
