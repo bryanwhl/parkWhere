@@ -18,7 +18,6 @@ class ModelLoader {
 
   Future _loadModel() async {
     _interpreter = await Interpreter.fromAsset(_modelFile);
-    print("interpreter loaded successfully");
     return;
   }
 
@@ -32,7 +31,6 @@ class ModelLoader {
       ref[features[i][1]] = features[i][0];
     }
     _ref = ref;
-    print("features loaded successfully");
   }
 
   int convertCarParkId(String id) {
