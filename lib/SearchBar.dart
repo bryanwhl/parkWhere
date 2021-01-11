@@ -74,6 +74,7 @@ class _SearchBarWrapperState extends State<SearchBarWrapper> {
       maxWidth: isPortrait ? 600 : 500,
       actions: actions,
       progress: false,
+      autocomplete: false,
       debounceDelay: const Duration(milliseconds: 500),
       onQueryChanged: onQueryChanged,
       scrollPadding: EdgeInsets.zero,
